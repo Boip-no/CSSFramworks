@@ -1,8 +1,14 @@
 header {
     font-family: $headerFont;
-    font-size: 22px;
+    font-size: 13px;
 }
 a:hover {
-    color: white;
     font-style: bold;
+}
+
+.logo {
+    font-size: 22px;
+    font-family: $headerFont;
+    color: $contrastColor;
+    font-style: italic;
 }
