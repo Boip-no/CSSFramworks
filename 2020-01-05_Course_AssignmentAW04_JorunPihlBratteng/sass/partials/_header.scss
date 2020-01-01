@@ -1,8 +1,16 @@
 header {
+    padding: 20px;
     font-family: $headerFont;
-    font-size: 22px;
+    font-size: 13px;
+    background-color: $backgroundColor;
 }
 a:hover {
-    color: white;
-    font-style: bold;
+    font-style: bold italic;
+}
+
+.logo {
+    font-size: 22px;
+    font-family: $headerFont;
+    color: $contrastColor;
+    font-style: italic;
 }

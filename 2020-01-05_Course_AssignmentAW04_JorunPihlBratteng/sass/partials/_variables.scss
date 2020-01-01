@@ -1,4 +1,6 @@
-@import "typography.scss";
-@import "header.scss";
-@import "main.scss";
-@import "footer.scss";
+$contrastColor: #d40083;
+$headerFont: Noto Serif, serif;
+$mainFont: Lato, sans-serif;
+$backgroundColor: lighten($color: whitesmoke, $amount: 0);
+$heading: 24px;
+$sub-heading: 20px;
