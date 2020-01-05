@@ -1,0 +1,29 @@
+.logo {
+    font-size: 22px;
+    font-family: $headerFont;
+    color: $contrastColor;
+    font-style: italic;
+
+    .logo:hover {
+        color: $contrastColor;
+        text-decoration: none;
+    }
+}
+
+.nav-link {
+    font-family: $mainFont;
+    color: black;
+    margin-left: 20px;
+}
+.nav-link:hover {
+    background-color: white;
+    color: $contrastColor;
+}
+.current {
+    background-color: white;
+    color: $contrastColor;
+    border-bottom: solid 1px;
+}
+
+
+

@@ -1,23 +1,19 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Serif:400,700i&display=swap');
+@import " https://use.fontawesome.com/releases/v5.0.7/css/all.css";
 
 @import "partials/variables";
 @import "partials/typography";
 
 @import "partials/header";
+@import "partials/header_nav";
 @import "partials/header_search";
 
 @import "partials/body";
 
 @import "partials/home_body";
-@import "partials/home_body_btn";
 
-@import "partials/news";
 @import "partials/news_body";
-@import "partials/news_body_btn";
 
-@import "partials/contact";
 @import "partials/contact_body";
-@import "partials/contact_body_btn";
 
 @import "partials/footer";

@@ -1,9 +1,18 @@
 .container {
     margin-top: 20px;
 }
-h1 {
-    font-size: $heading;
-}
-p {
-    font-size: $sub-heading;
+
+main {
+    font-family: $mainFont; 
+    .heading {
+        font-size: $heading;
+        font-style: bold;
+    }
+    .sub_heading {
+        font-size: $sub-heading;
+    }
+    
+    .body_text {
+        font-size: $bodyText;
+    }
 }

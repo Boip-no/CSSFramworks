@@ -1,0 +1,22 @@
+.ContactForm {
+    background-color: white;
+    margin-bottom: 50px;
+    
+    .btn-primary {
+        font-size: $fontBtn;
+        padding: $padding-btn;
+        background-color: $contrastColor;
+        border-color:  $contrastColor;
+        float: right;
+    }
+}
+
+.col-md {
+    border: solid 1px;
+    padding: 5px 0px 5px 20px;
+}
+
+.col-md-6 {
+    background-color: $backgroundColor;
+    margin-right: auto;
+}

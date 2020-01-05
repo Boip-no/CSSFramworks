@@ -4,12 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CA - CSS Framework</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="sass/styles.css">
 </head>
 <body>
   <header>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-light navbar-expand-lg">
         <a class="logo" href="index.html">The YAY Company</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-6"
           aria-controls="navbarSupportedContent-6" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,21 +18,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent-6">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            <li class="nav-item hamburger">
+              <a class="nav-link current" href="index.html">HOME <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="news.html">NEWS <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="news.html">NEWS <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="contact.html">CONTACT <span class="sr-only"></span></a>
             </li>
           </ul>
           <form class="form-inline">
             <div class="md-form my-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search..">
             </div>
-            <a href="#" class="btn btn-primary">GO</a>
+            <a href="#" class="btn btn-info">GO</a>
           </form>
         </div>
       </nav>
@@ -53,102 +54,104 @@
       </div>
     </div> 
     <div class="container">
-      <div class="row text">
-        
-        <h1>We do YAY things</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus veritatis similique aut in ad, magni suscipit optio ut. Dicta nostrum necessitatibus tempora enim sit doloribus officiis velit temporibus vero ipsam!</p>
-      
+      <div class="text-md-2">
+        <h1 class="heading"><strong>We do YAY things</strong></h1>
+          <p class="body_text">Hic Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident alias pariatur qui dignissimos sit. Natus soluta mollitia reprehenderit, aut quasi eum nulla laboriosam. Nulla, doloribus! Quos est quaerat culpa natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus veritatis similique aut in ad, magni suscipit optio ut. Dicta nostrum necessitatibus tempora enim sit doloribus officiis velit temporibus vero ipsam!</p>
       </div>  
     </div>
+
+
+
     <div class="container">
-      <div class="card text-md-left">
-        <div class="card-header">
-          <ul class="nav nav-tabs card-header-tabs">
+      <div class="card">
+        <div class="card-header"> 
+          <ul class="nav nav-tabs card-header-tabs pull-left"  id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" href="#">NULLAM</a>
+            <a class="nav-link active" id="nullam-tab" data-toggle="tab" href="#nullam" role="tab" aria-controls="nullam" aria-selected="true">NULLAM</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SUSPENDISSE</a>
+              <a class="nav-link" id="suspendisse-tab" data-toggle="tab" href="#suspendisse" role="tab" aria-controls="suspendisse" aria-selected="false">SUSPENDISSE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ELEFEND</a>
+              <a class="nav-link" id="elefend-tab" data-toggle="tab" href="#elefend" role="tab" aria-controls="elefend" aria-selected="false">ELEFEND</a>
             </li>
           </ul>
         </div>
         <div class="card-body">
-          <div class="col-md-3" >
-            <div class="card" width="100%">
-                <img class="card-img-top" src="images/tabs/tab-1.jpg" alt="Card image">
-              </div>
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="">With supporting text below as a natural lead-in to additional content.</p>
-              </div>
+        <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="nullam" role="tabpanel" aria-labelledby="nullam-tab">
+          <div class="row" >
+            <div class="col-lg-3" width="100%">
+                <img class="card-img" src="images/tabs/tab-1.jpg" alt="Card image">
             </div>
-        
+            <div class="col-md-9" width="100%">
+              <h2 class="card-title">Special title treatment</h2>
+              <p class="body_text">Hic ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolor alias atque quaerat beatae, ratione tempore dolorem dignissimos officia quo illum adipisci minus sit ea fuga nulla eveniet, expedita perspiciatis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iste id quidem voluptas. Quibusdam aliquid, harum temporibus molestias corporis asperiores eius voluptatum velit, quidem non maiores illo tempora. Hic, voluptates..</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        </div>
       </div>
     </div>
   </main>
 
-  <!-- Footer -->
-<footer class="container-fluid page-footer font-small mdb-color pt-4">
-    <!-- Grid row -->
+  <footer class="container-fluid page-footer font-small mdb-color pt-2">
     <div class="row d-flex align-items-center">
-
-      <!-- Grid column -->
-      <div class="col-md-7 col-lg-8">
-
-        <!--Copyright-->
-        <p class="text-center text-md-left">© 2018 Copyright:
-          <a href="https://mdbootstrap.com/education/bootstrap/">
-            <strong> MDBootstrap.com</strong>
-          </a>
-        </p>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
       <div class="col-md-5 col-lg-4 ml-lg-0">
-
-        <!-- Social buttons -->
-        <div class="text-center text-md-right">
+        <div class="text-center text-md-left">
           <ul class="list-unstyled list-inline">
             <li class="list-inline-item">
-              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+              <a class="btn-floating btn-sm rgba-white-slight">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+              <a class="btn-floating btn-sm rgba-white-slight">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                <i class="fab fa-google-plus-g"></i>
+              <a class="btn-floating btn-sm rgba-white-slight">
+                <i class="fab fa-android"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                <i class="fab fa-linkedin-in"></i>
+              <a class="btn-floating btn-sm rgba-white-slight">
+                <i class="fab fa-apple"></i>
               </a>
             </li>
           </ul>
         </div>
-
       </div>
-      <!-- Grid column -->
-
+      <div class="col-md-7 col-lg-8">
+        <p class="footer-font text-center text-md-right">Copyright YAY 2019</p>
+      </div>
     </div>
-    <!-- Grid row -->
-
   </div>
-  <!-- Footer Links -->
-
 </footer>
-<!-- Footer -->
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
 </body>
 </html>
+
+<!-- 
+
+  Button on hover, rød-grønn. WCAG 2.0 (fargeblind), bytt en av fargene
+  BEM navngivningskonvensjon skal brukes på News-siden. Se over dette
+  
+
+  Styles, arrangements har jeg ikke gått over.
+
+  Pro-tip: Sjekk ut at disse er så gode som du får de:
+
+    • Proper	implementation	of	Bootstrap	components
+    • Well-organised	pre-processor	files
+    • Custom	styles	match	the	supplied	designs
+    • Project	is	properly	responsive
+
+    Hvis du ellers treffer på oppgaven, noe jeg tror du gjør, er det disse som bestemmer karakteren din
+ -->

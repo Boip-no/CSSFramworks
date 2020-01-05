@@ -9,7 +9,7 @@
 <body>
   <header>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-light navbar-expand-lg">
         <a class="logo" href="index.html">The YAY Company</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-6"
           aria-controls="navbarSupportedContent-6" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,14 +24,14 @@
               <a class="nav-link" href="news.html">NEWS <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
+              <a class="nav-link current" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
             </li>
           </ul>
           <form class="form-inline">
             <div class="md-form my-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              <input class="form-control mr-" type="text" placeholder="Search" aria-label="Search">
             </div>
-            <a href="#" class="btn btn-primary">GO</a>
+            <a href="#" class="btn btn-info">GO</a>
           </form>
         </div>
       </nav>
@@ -40,60 +40,83 @@
   
   <main>
     <div class="container">
+      <!-- contact form -->
+      <h4>Contact</h4>
         <div class="row">
             <div class="col-md-6">
-            <form class="text-left border border-light p-5" action="#!">
-                <p class="h4 mb-4">Contact</p>
-                <!-- Name -->
+            <form class="text-left p-5" action="#!">
                 <input type="text" id="ContactFormName" class="form-control mb-4" placeholder="Name">
-                <!-- Phone -->
                 <input type="phone" id="ContactFormPhone" class="form-control mb-4" placeholder="Phone">
-                <!-- Email -->
                 <input type="email" id="ContactFormEmail" class="form-control mb-4" placeholder="E-mail">
-                
                 <div class="form-group">
                     <textarea class="form-control rounded-0" rows="3" placeholder="Message"></textarea>
                 </div>
-                <div class="card">
+                <div>
                   <a href="#" class="btn btn-primary">SEND</a> 
                 </div>           
             </form>
         </div>
-        <div class="col-md-6">
-            <div class="col-md border border-light p-2">
+      <!-- service form -->
+        <div class="col-md-5">
+          <h4>Services</h4>
+          <form class="text-left p-5" action="#!">
+          
+            <div class="col-md">
                 <p>fgdfghhg gjfkmlyf kf</p>
             </div>
-            <div class="col-md border border-light p-2">
+            <div class="col-md">
                 <p>jsjtrs htrshjrs sshtr</p>
             </div>
-            <div class="col-md border border-light p-2">
+            <div class="col-md">
                 <p>heshtrshrts tsrsrj   rs tr</p>
             </div>
-            <div class="col-md border border-light p-2">
+            <div class="col-md">
                 <p>htfdjtdj tr j ki ddhjt er jsi onje</p>
             </div>
+            <div class="col-md">
+              <p>htfdjtdj tr j ki ddhjt er jsi onje</p>
+            </div>
+          </form>
         </div>
       </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
-    </div>
-        </div>
     </div>
   </main>
-  <footer class="page-footer font-small blue">
-    <div class="footer-copyright text-left py-3">
-        <a href="#"><i class="fab fa-facebook-square"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-android"></i></a>
-        <a href="#"><i class="fab fa-apple"></i></a>
-        <p class="footer-copyright text-right py-3">Copyright YAY 2019</p>
+  <footer class="container-fluid page-footer font-small mdb-color pt-2">
+    <div class="row d-flex align-items-center">
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+        <div class="text-center text-md-left">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight">
+                <i class="fab fa-android"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight">
+                <i class="fab fa-apple"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <p class="footer-font text-center text-md-right">Copyright YAY 2019</p>
+      </div>
     </div>
-  </footer>
+  </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
 </body>
 </html>

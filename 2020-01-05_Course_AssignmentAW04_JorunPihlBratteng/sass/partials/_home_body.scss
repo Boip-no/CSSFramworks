@@ -1,9 +1,11 @@
 .carousel-inner {
     max-height: 400px;
+    max-width: 1920px;
 }
-.card-header {
-    background-color: white;
+.card {
+    .card-body {
+        box-shadow: 0px 10px 5px 0px rgba(204,204,204,1);
+    }
 }
-.card-body {
-    background-color: $backgroundColor;
-}
+
+

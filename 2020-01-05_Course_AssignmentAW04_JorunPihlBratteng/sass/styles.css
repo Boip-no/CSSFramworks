@@ -1,14 +1,11 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Serif:400,700i&display=swap");
+@import " https://use.fontawesome.com/releases/v5.0.7/css/all.css";
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Serif:400,700i&display=swap';
 header {
   padding: 20px;
   font-family: Noto Serif, serif;
   font-size: 13px;
   background-color: whitesmoke;
-}
-
-a:hover {
-  font-style: bold italic;
 }
 
 .logo {
@@ -17,8 +14,7 @@ a:hover {
   color: #d40083;
   font-style: italic;
 }
-
-.logo:hover {
+.logo .logo:hover {
   color: #d40083;
   text-decoration: none;
 }
@@ -31,45 +27,105 @@ a:hover {
 
 .nav-link:hover {
   background-color: white;
-  color: black;
+  color: #d40083;
+}
+
+.current {
+  background-color: white;
+  color: #d40083;
   border-bottom: solid 1px;
+}
+
+.btn-info {
+  font-family: Noto Serif, serif;
+  font-size: 13px;
+  color: white;
+  background-color: #d40083;
+  border-color: #d40083;
+  float: right;
+  border-radius: none;
+}
+.btn-info :hover {
+  font-family: Noto Serif, serif;
+  font-size: 13px;
+  color: white;
+  background-color: #d40083;
+  border-color: #d40083;
+  float: right;
+  border-radius: none;
 }
 
 .container {
   margin-top: 20px;
 }
 
-h1 {
-  font-size: 24px;
+main {
+  font-family: Lato, sans-serif;
 }
-
-p {
+main .heading {
+  font-size: 24px;
+  font-style: bold;
+}
+main .sub_heading {
   font-size: 20px;
+}
+main .body_text {
+  font-size: 16px;
 }
 
 .carousel-inner {
   max-height: 400px;
+  max-width: 1920px;
 }
 
-main {
-  font-family: Lato, sans-serif;
-}
-
-h6 {
-  font-size: 24px;
-}
-
-p {
-  font-size: 20px;
+.card .card-body {
+  box-shadow: 0px 10px 5px 0px #cccccc;
 }
 
 .col-md-3 {
   margin-bottom: 20px;
 }
+.col-md-3 .card-title {
+  font-size: 20px;
+}
+.col-md-3 .card-text {
+  font-size: 16px;
+}
+.col-md-3 .btn {
+  background-color: #d40083;
+  font-size: 13px;
+  padding: 5px 50px 5px 50px;
+  border-color: #d40083;
+}
+
+.ContactForm {
+  background-color: white;
+  margin-bottom: 50px;
+}
+.ContactForm .btn-primary {
+  font-size: 13px;
+  padding: 5px 30px 5px 30px;
+  background-color: #d40083;
+  border-color: #d40083;
+  float: right;
+}
+
+.col-md {
+  border: solid 1px;
+  padding: 5px 0px 5px 20px;
+}
+
+.col-md-6 {
+  background-color: whitesmoke;
+  margin-right: auto;
+}
 
 footer {
-  font-size: 11px;
+  margin-top: 20px;
   background-color: whitesmoke;
+}
+footer .footer-font {
+  font-size: 11px;
 }
 
 /*# sourceMappingURL=styles.css.map */
