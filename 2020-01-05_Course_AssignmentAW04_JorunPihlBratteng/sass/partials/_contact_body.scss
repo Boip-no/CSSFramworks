@@ -1,14 +1,6 @@
 .ContactForm {
     background-color: white;
     margin-bottom: 50px;
-    
-    .btn-primary {
-        font-size: $fontBtn;
-        padding: $padding-btn;
-        background-color: $contrastColor;
-        border-color:  $contrastColor;
-        float: right;
-    }
 }
 
 .col-md {
@@ -19,4 +11,12 @@
 .col-md-6 {
     background-color: $backgroundColor;
     margin-right: auto;
+}
+
+.btn-primary {
+    font-size: $fontBtn;
+    padding: $padding-btn;
+    background-color: $contrastColor;
+    border-color:  $contrastColor;
+    float: right;
 }

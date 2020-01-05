@@ -102,13 +102,6 @@ main .body_text {
   background-color: white;
   margin-bottom: 50px;
 }
-.ContactForm .btn-primary {
-  font-size: 13px;
-  padding: 5px 30px 5px 30px;
-  background-color: #d40083;
-  border-color: #d40083;
-  float: right;
-}
 
 .col-md {
   border: solid 1px;
@@ -118,6 +111,14 @@ main .body_text {
 .col-md-6 {
   background-color: whitesmoke;
   margin-right: auto;
+}
+
+.btn-primary {
+  font-size: 13px;
+  padding: 5px 30px 5px 30px;
+  background-color: #d40083;
+  border-color: #d40083;
+  float: right;
 }
 
 footer {
